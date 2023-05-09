@@ -1,10 +1,14 @@
 import React from "react";
+import "./about.css";
+import jasonPic from "../assets/me.jpeg";
 
 const AboutMe = () => {
   return (
-    <div className="aboutMe">
-      <h1>About Me</h1>
-      <img src="[Your profile picture URL]" alt="jason" />
+    <div className="about">
+      <div className="about__image">
+        <img src={jasonPic} alt="jason" />
+      </div>
+      <div className="about__content"></div>
       <p>
         Hi there! My name is Jason, and I'm a web developer based in Portland,
         Oregon. I have over 2 years of experience in web development, and I'm
